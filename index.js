@@ -21,5 +21,10 @@ function fetchCategories() {
                 categoriesContainer.appendChild(categoryDiv);
             });
         })
+        .catch(error => {
+            console.error('Error fetching categories:', error );
+            const categoriesContainer = document.getElementById('categories-container' );
+            categoriesContainer.textContent = 'Failed to load categories.';
+        });
 }
 window.onload = fetchCategories;
