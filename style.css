@@ -1,0 +1,20 @@
+.category {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+}
+
+.category img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.category h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
