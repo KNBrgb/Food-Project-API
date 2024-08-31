@@ -21,6 +21,5 @@ function fetchCategories() {
                 categoriesContainer.appendChild(categoryDiv);
             });
         })
-        
 }
 window.onload = fetchCategories;
